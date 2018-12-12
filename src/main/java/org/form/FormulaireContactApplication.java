@@ -43,9 +43,7 @@ public class FormulaireContactApplication implements CommandLineRunner{
 		
 		statutRepository.save(new Ecole("Bac+5","Informatique","ENSIAS"));
 		statutRepository.save(new Institut("Bac+2","Reseaux et Telecoms","INPT"));
-		
-		statutRepository.save(new Ecole("Bac","Informatique","ENSIAS"));
-		statutRepository.save(new Institut("Bac+2","Reseaux et Telecoms","INPT"));
+	
 		
 		
 	}
